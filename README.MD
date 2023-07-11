@@ -14,9 +14,9 @@ Desenvolvido por Ivan Barbosa.<br>
 🔖 Pagina
 </p>
 
-Você pode visualizar e interagir com a pagina do projeto através 
 <p align="center">
-<a href="https://ivanbs14.github.io/Land_page_BlogGatos/">Click aqui </a>
+  Você pode visualizar e interagir com a pagina do projeto através 
+  <a href="https://ivanbs14.github.io/Iniciando-com-JavaScript-EXERC-CIOS/">Click aqui </a>
 </p>
 
 <p align="center">
