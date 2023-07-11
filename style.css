@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    /* Cores */
+    --tt-heading: #0C3440;
+
+    --tt-label: #00453A;
+    --tt-input: #212529;
+    --ot-input: #02799D;
+    --bd-input: rgba(73, 80, 87, 0.3);
+    --tt-placeholder: rgba(73, 80, 87, 0.5);
+    --bg-input: #DCE2E9;
+
+    --tt-button: white;
+    --bg-button: #02799D;
+    --bg-button-hover: #01475c;
+
+    --bg-error: #F03E3E;
+    --tt-error: white;
+}
+
+body {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #040924;
+    font-size: 1.6rem;
+
+    padding: 2.5rem 2.0rem;
+    display: flex;
+    gap: 2.0rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+body input button {
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+.conteiner {
+    width: 24.0rem;
+    height: 25.0rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2.5rem;
+
+    border-radius: .4rem;
+    background-color: var(--tt-button);
+}
+
+.card{
+    padding: 1.5rem;
+    position: relative;
+}
+
+.card h1{
+    height: 5.0rem;
+    font-size: 1.8rem;
+}
+
+form input {
+    width: 4.0rem;
+    border: 1px solid var(--bd-input);
+    background: var(--bg-input);
+    border-radius: .4rem;
+    margin-left: .5rem;
+    text-align: center;
+}
+
+form input:focus {
+    outline: 2px solid var(--ot-input);
+}
+
+.input-wrapper + .input-wrapper {
+    margin-top: 1.6rem;
+}
+
+.input-wrapper label{
+    font-size: 1.4rem;
+}
+
+form button {
+    margin-top: 2.0rem;
+    padding: 1.6rem;
+    width: 90%;
+
+    border: none;
+    border-radius: .4rem;
+    background-color: var(--bg-button);
+    color: var(--tt-button);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .8rem;
+
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: background .3s;
+
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+form button:hover {
+    background: var(--bg-button-hover)
+}
